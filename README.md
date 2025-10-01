@@ -1,8 +1,10 @@
+# On-Chain Activity Bot
+
 A configurable Node.js bot for simulating realistic on-chain activity. This tool is designed for developers and airdrop farmers looking to build a transaction history on EVM-compatible blockchains.
 
 ## Features
 
-- **Multi-Mode Operation**: Deploy unique ERC-20 tokens or simple contracts.
+- **Multi-Mode Operation**: Deploy unique ERC-20 tokens, NFTs, or simple contracts.
 - **Stealth Features**: Includes wallet shuffling and randomized delays to mimic human behavior.
 - **Configurable**: All settings, including private keys and RPC URLs, are managed via a secure `.env` file.
 
@@ -11,8 +13,8 @@ A configurable Node.js bot for simulating realistic on-chain activity. This tool
 ### 1. Setup
 Clone the repository and install dependencies:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
+git clone [https://github.com/mdfaizanaquil/onchain-activity-bot.git](https://github.com/mdfaizanaquil/onchain-activity-bot.git)
+cd onchain-activity-bot
 npm install ethers dotenv
 ```
 
